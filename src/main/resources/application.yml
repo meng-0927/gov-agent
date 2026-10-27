@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+agent:
+  planner:
+    max-repair-attempts: 2
+  executor:
+    max-tool-attempts: 2
+  conversation:
+    recent-message-limit: 8
